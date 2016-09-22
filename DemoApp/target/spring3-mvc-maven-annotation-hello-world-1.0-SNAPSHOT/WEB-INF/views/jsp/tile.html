@@ -1,0 +1,3 @@
+		<div title="<%=NashornWrapper.getValue("person.getName()")%>"><%=NashornWrapper.getValue("person.getName()")%></div>
+		<div data-if="person.married" title="<%=NashornWrapper.getValue("person.getSpouse()")%>"><%=NashornWrapper.getValue("person.getSpouse()")%></div>
+		<div data-for-child="person.children">Child: <%=NashornWrapper.getValue("person.getChildren()")%></div>
